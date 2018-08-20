@@ -26,9 +26,7 @@
         <TextView
             android:id="@+id/article_title"
             style="@style/list_item_style"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/list_item_text_color"
+            android:textStyle="bold"
             android:ellipsize="end"
             android:maxLines="4" />
 
@@ -36,9 +34,6 @@
             android:id="@+id/article_subtitle"
             style="@style/list_item_style"
             android:paddingTop="4dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/list_item_text_color"
             android:maxLines="2"
             android:ellipsize="end" />
     </LinearLayout>
